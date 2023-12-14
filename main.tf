@@ -1,6 +1,6 @@
 module "gokwik-eks-deploy" {
-  source = "file::/Users/tarunchaudhary/Documents/gkwk-eks-module"
-  #source = "git::https://tarunchaudharygk@bitbucket.org/gokwik_co/gkwk-eks-module.git"
+  #source = "file::/Users/tarunchaudhary/Documents/gkwk-eks-module"
+  source = "git::https://github.com/ichinmaypotdar/neo-eks-module.git"
   region                    = var.region
   Environment               = var.Environment
   Email                     = var.Email
